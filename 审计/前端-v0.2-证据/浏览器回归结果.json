@@ -1,0 +1,688 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Users\\15375\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "E:\\ai-customer-service-plan\\开发\\frontend\\node_modules\\.pnpm\\@playwright+test@1.62.1\\node_modules\\@playwright\\test\\cli.js",
+      "test"
+    ],
+    "configFile": "E:\\ai-customer-service-plan\\开发\\frontend\\playwright.config.ts",
+    "rootDir": "E:/ai-customer-service-plan/开发/frontend/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "E:/ai-customer-service-plan/开发/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "",
+        "name": "",
+        "testDir": "E:/ai-customer-service-plan/开发/frontend/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 2,
+    "webServer": {
+      "command": "node node_modules/vite/bin/vite.js --host 127.0.0.1 --port 5174 --strictPort",
+      "url": "http://127.0.0.1:5174",
+      "reuseExistingServer": false,
+      "timeout": 30000
+    }
+  },
+  "suites": [
+    {
+      "title": "hero.spec.ts",
+      "file": "hero.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "FE-A01：HTML 文件可独立打开，无外部脚本、无框架入口",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 582,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T04:34:09.464Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c28c8b2359d0cc83445a-833e3e27804c27e23868",
+          "file": "hero.spec.ts",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "初始只设置 Earth 视频 src，意图预热后可逆切换且不改图片 src",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1648,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T04:34:09.465Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c28c8b2359d0cc83445a-9d913fd42ff1f0f2a621",
+          "file": "hero.spec.ts",
+          "line": 26,
+          "column": 1
+        },
+        {
+          "title": "入口打开相应模块、蓝图弹窗及聊天工作台",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1266,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T04:34:10.315Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c28c8b2359d0cc83445a-fa6058ca971627156707",
+          "file": "hero.spec.ts",
+          "line": 45,
+          "column": 1
+        },
+        {
+          "title": "手机导航打开、Escape 返回焦点、链接点击关闭、点外部关闭",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1410,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T04:34:11.374Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c28c8b2359d0cc83445a-556181f165712b8d2ff9",
+          "file": "hero.spec.ts",
+          "line": 59,
+          "column": 1
+        },
+        {
+          "title": "入场动画完成后清理样式，暂停控件可切换",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2702,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T04:34:11.590Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c28c8b2359d0cc83445a-5cdce54d0c085ef9a214",
+          "file": "hero.spec.ts",
+          "line": 79,
+          "column": 1
+        },
+        {
+          "title": "减少动画模式不启动入场；切换仍更新静帧",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 373,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T04:34:12.794Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c28c8b2359d0cc83445a-cf1bebfaf6c07aae1625",
+          "file": "hero.spec.ts",
+          "line": 86,
+          "column": 1
+        },
+        {
+          "title": "全部图片和字体不可用时，导航与核心文案仍可使用",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2741,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T04:34:13.177Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c28c8b2359d0cc83445a-ec23e95b2a618a65e83a",
+          "file": "hero.spec.ts",
+          "line": 96,
+          "column": 1
+        },
+        {
+          "title": "320–2560 像素宽度下三颗星球、短屏和工作台页面不横向溢出",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4643,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T04:34:14.303Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "layout-samples.json",
+                      "contentType": "application/json",
+                      "body": "WwogIHsKICAgICJwYWdlIjogImhlcm8iLAogICAgInBsYW5ldCI6ICJFQVJUSCIsCiAgICAid2lkdGgiOiAzMjAsCiAgICAic2Nyb2xsV2lkdGgiOiAzMjAsCiAgICAiY3RhQm90dG9tIjogNDI5LjU5Mzc1LAogICAgImhlaWdodCI6IDcyMAogIH0sCiAgewogICAgInBhZ2UiOiAiaGVybyIsCiAgICAicGxhbmV0IjogIlZFTlVTIiwKICAgICJ3aWR0aCI6IDMyMCwKICAgICJzY3JvbGxXaWR0aCI6IDMyMCwKICAgICJjdGFCb3R0b20iOiA0MjkuNTkzNzUsCiAgICAiaGVpZ2h0IjogNzIwCiAgfSwKICB7CiAgICAicGFnZSI6ICJoZXJvIiwKICAgICJwbGFuZXQiOiAiTUFSUyIsCiAgICAid2lkdGgiOiAzMjAsCiAgICAic2Nyb2xsV2lkdGgiOiAzMjAsCiAgICAiY3RhQm90dG9tIjogNDI5LjU5Mzc1LAogICAgImhlaWdodCI6IDcyMAogIH0sCiAgewogICAgInBhZ2UiOiAiaGVybyIsCiAgICAicGxhbmV0IjogIkVBUlRIIiwKICAgICJ3aWR0aCI6IDM5MCwKICAgICJzY3JvbGxXaWR0aCI6IDM5MCwKICAgICJjdGFCb3R0b20iOiA0NDEuMjg5NzMzODg2NzE4NzUsCiAgICAiaGVpZ2h0IjogODQ0CiAgfSwKICB7CiAgICAicGFnZSI6ICJoZXJvIiwKICAgICJwbGFuZXQiOiAiVkVOVVMiLAogICAgIndpZHRoIjogMzkwLAogICAgInNjcm9sbFdpZHRoIjogMzkwLAogICAgImN0YUJvdHRvbSI6IDQxNy4zNjc4NTg4ODY3MTg3NSwKICAgICJoZWlnaHQiOiA4NDQKICB9LAogIHsKICAgICJwYWdlIjogImhlcm8iLAogICAgInBsYW5ldCI6ICJNQVJTIiwKICAgICJ3aWR0aCI6IDM5MCwKICAgICJzY3JvbGxXaWR0aCI6IDM5MCwKICAgICJjdGFCb3R0b20iOiA0MTcuMzY3ODU4ODg2NzE4NzUsCiAgICAiaGVpZ2h0IjogODQ0CiAgfSwKICB7CiAgICAicGFnZSI6ICJoZXJvIiwKICAgICJwbGFuZXQiOiAiRUFSVEgiLAogICAgIndpZHRoIjogNTAwLAogICAgInNjcm9sbFdpZHRoIjogNTAwLAogICAgImN0YUJvdHRvbSI6IDQwNS42NzE4NzUsCiAgICAiaGVpZ2h0IjogNzAwCiAgfSwKICB7CiAgICAicGFnZSI6ICJoZXJvIiwKICAgICJwbGFuZXQiOiAiVkVOVVMiLAogICAgIndpZHRoIjogNTAwLAogICAgInNjcm9sbFdpZHRoIjogNTAwLAogICAgImN0YUJvdHRvbSI6IDQwNS42NzE4NzUsCiAgICAiaGVpZ2h0IjogNzAwCiAgfSwKICB7CiAgICAicGFnZSI6ICJoZXJvIiwKICAgICJwbGFuZXQiOiAiTUFSUyIsCiAgICAid2lkdGgiOiA1MDAsCiAgICAic2Nyb2xsV2lkdGgiOiA1MDAsCiAgICAiY3RhQm90dG9tIjogNDA1LjY3MTg3NSwKICAgICJoZWlnaHQiOiA3MDAKICB9LAogIHsKICAgICJwYWdlIjogImhlcm8iLAogICAgInBsYW5ldCI6ICJFQVJUSCIsCiAgICAid2lkdGgiOiA1NzksCiAgICAic2Nyb2xsV2lkdGgiOiA1NzksCiAgICAiY3RhQm90dG9tIjogNDA1LjY3MTg3NSwKICAgICJoZWlnaHQiOiA4MDAKICB9LAogIHsKICAgICJwYWdlIjogImhlcm8iLAogICAgInBsYW5ldCI6ICJWRU5VUyIsCiAgICAid2lkdGgiOiA1NzksCiAgICAic2Nyb2xsV2lkdGgiOiA1NzksCiAgICAiY3RhQm90dG9tIjogNDA1LjY3MTg3NSwKICAgICJoZWlnaHQiOiA4MDAKICB9LAogIHsKICAgICJwYWdlIjogImhlcm8iLAogICAgInBsYW5ldCI6ICJNQVJTIiwKICAgICJ3aWR0aCI6IDU3OSwKICAgICJzY3JvbGxXaWR0aCI6IDU3OSwKICAgICJjdGFCb3R0b20iOiA0MDUuNjcxODc1LAogICAgImhlaWdodCI6IDgwMAogIH0sCiAgewogICAgInBhZ2UiOiAiaGVybyIsCiAgICAicGxhbmV0IjogIkVBUlRIIiwKICAgICJ3aWR0aCI6IDU4MCwKICAgICJzY3JvbGxXaWR0aCI6IDU4MCwKICAgICJjdGFCb3R0b20iOiA1NjMuNTMxMjUsCiAgICAiaGVpZ2h0IjogOTAwCiAgfSwKICB7CiAgICAicGFnZSI6ICJoZXJvIiwKICAgICJwbGFuZXQiOiAiVkVOVVMiLAogICAgIndpZHRoIjogNTgwLAogICAgInNjcm9sbFdpZHRoIjogNTgwLAogICAgImN0YUJvdHRvbSI6IDU2My41MzEyNSwKICAgICJoZWlnaHQiOiA5MDAKICB9LAogIHsKICAgICJwYWdlIjogImhlcm8iLAogICAgInBsYW5ldCI6ICJNQVJTIiwKICAgICJ3aWR0aCI6IDU4MCwKICAgICJzY3JvbGxXaWR0aCI6IDU4MCwKICAgICJjdGFCb3R0b20iOiA1NjMuNTMxMjUsCiAgICAiaGVpZ2h0IjogOTAwCiAgfSwKICB7CiAgICAicGFnZSI6ICJoZXJvIiwKICAgICJwbGFuZXQiOiAiRUFSVEgiLAogICAgIndpZHRoIjogNzY4LAogICAgInNjcm9sbFdpZHRoIjogNzY4LAogICAgImN0YUJvdHRvbSI6IDU5MS42OTEzNDUyMTQ4NDM4LAogICAgImhlaWdodCI6IDEwMjQKICB9LAogIHsKICAgICJwYWdlIjogImhlcm8iLAogICAgInBsYW5ldCI6ICJWRU5VUyIsCiAgICAid2lkdGgiOiA3NjgsCiAgICAic2Nyb2xsV2lkdGgiOiA3NjgsCiAgICAiY3RhQm90dG9tIjogNTkxLjY5MTM0NTIxNDg0MzgsCiAgICAiaGVpZ2h0IjogMTAyNAogIH0sCiAgewogICAgInBhZ2UiOiAiaGVybyIsCiAgICAicGxhbmV0IjogIk1BUlMiLAogICAgIndpZHRoIjogNzY4LAogICAgInNjcm9sbFdpZHRoIjogNzY4LAogICAgImN0YUJvdHRvbSI6IDU5MS42OTEzNDUyMTQ4NDM4LAogICAgImhlaWdodCI6IDEwMjQKICB9LAogIHsKICAgICJwYWdlIjogImhlcm8iLAogICAgInBsYW5ldCI6ICJFQVJUSCIsCiAgICAid2lkdGgiOiAxMDMwLAogICAgInNjcm9sbFdpZHRoIjogMTAzMCwKICAgICJjdGFCb3R0b20iOiA1NjMuNTMxMjUsCiAgICAiaGVpZ2h0IjogOTAwCiAgfSwKICB7CiAgICAicGFnZSI6ICJoZXJvIiwKICAgICJwbGFuZXQiOiAiVkVOVVMiLAogICAgIndpZHRoIjogMTAzMCwKICAgICJzY3JvbGxXaWR0aCI6IDEwMzAsCiAgICAiY3RhQm90dG9tIjogNTYzLjUzMTI1LAogICAgImhlaWdodCI6IDkwMAogIH0sCiAgewogICAgInBhZ2UiOiAiaGVybyIsCiAgICAicGxhbmV0IjogIk1BUlMiLAogICAgIndpZHRoIjogMTAzMCwKICAgICJzY3JvbGxXaWR0aCI6IDEwMzAsCiAgICAiY3RhQm90dG9tIjogNTYzLjUzMTI1LAogICAgImhlaWdodCI6IDkwMAogIH0sCiAgewogICAgInBhZ2UiOiAiaGVybyIsCiAgICAicGxhbmV0IjogIkVBUlRIIiwKICAgICJ3aWR0aCI6IDEwMzEsCiAgICAic2Nyb2xsV2lkdGgiOiAxMDMxLAogICAgImN0YUJvdHRvbSI6IDUxMC45NzU5MjE2MzA4NTk0LAogICAgImhlaWdodCI6IDkwMAogIH0sCiAgewogICAgInBhZ2UiOiAiaGVybyIsCiAgICAicGxhbmV0IjogIlZFTlVTIiwKICAgICJ3aWR0aCI6IDEwMzEsCiAgICAic2Nyb2xsV2lkdGgiOiAxMDMxLAogICAgImN0YUJvdHRvbSI6IDUxMC45NzU5MjE2MzA4NTk0LAogICAgImhlaWdodCI6IDkwMAogIH0sCiAgewogICAgInBhZ2UiOiAiaGVybyIsCiAgICAicGxhbmV0IjogIk1BUlMiLAogICAgIndpZHRoIjogMTAzMSwKICAgICJzY3JvbGxXaWR0aCI6IDEwMzEsCiAgICAiY3RhQm90dG9tIjogNTEwLjk3NTkyMTYzMDg1OTQsCiAgICAiaGVpZ2h0IjogOTAwCiAgfSwKICB7CiAgICAicGFnZSI6ICJoZXJvIiwKICAgICJwbGFuZXQiOiAiRUFSVEgiLAogICAgIndpZHRoIjogMTM1MywKICAgICJzY3JvbGxXaWR0aCI6IDEzNTMsCiAgICAiY3RhQm90dG9tIjogNjYzLAogICAgImhlaWdodCI6IDExNjMKICB9LAogIHsKICAgICJwYWdlIjogImhlcm8iLAogICAgInBsYW5ldCI6ICJWRU5VUyIsCiAgICAid2lkdGgiOiAxMzUzLAogICAgInNjcm9sbFdpZHRoIjogMTM1MywKICAgICJjdGFCb3R0b20iOiA2NjMsCiAgICAiaGVpZ2h0IjogMTE2MwogIH0sCiAgewogICAgInBhZ2UiOiAiaGVybyIsCiAgICAicGxhbmV0IjogIk1BUlMiLAogICAgIndpZHRoIjogMTM1MywKICAgICJzY3JvbGxXaWR0aCI6IDEzNTMsCiAgICAiY3RhQm90dG9tIjogNjYzLAogICAgImhlaWdodCI6IDExNjMKICB9LAogIHsKICAgICJwYWdlIjogImhlcm8iLAogICAgInBsYW5ldCI6ICJFQVJUSCIsCiAgICAid2lkdGgiOiAxNDQwLAogICAgInNjcm9sbFdpZHRoIjogMTQ0MCwKICAgICJjdGFCb3R0b20iOiA1MTMuMDQ2ODc1LAogICAgImhlaWdodCI6IDkwMAogIH0sCiAgewogICAgInBhZ2UiOiAiaGVybyIsCiAgICAicGxhbmV0IjogIlZFTlVTIiwKICAgICJ3aWR0aCI6IDE0NDAsCiAgICAic2Nyb2xsV2lkdGgiOiAxNDQwLAogICAgImN0YUJvdHRvbSI6IDUxMy4wNDY4NzUsCiAgICAiaGVpZ2h0IjogOTAwCiAgfSwKICB7CiAgICAicGFnZSI6ICJoZXJvIiwKICAgICJwbGFuZXQiOiAiTUFSUyIsCiAgICAid2lkdGgiOiAxNDQwLAogICAgInNjcm9sbFdpZHRoIjogMTQ0MCwKICAgICJjdGFCb3R0b20iOiA1MTMuMDQ2ODc1LAogICAgImhlaWdodCI6IDkwMAogIH0sCiAgewogICAgInBhZ2UiOiAiaGVybyIsCiAgICAicGxhbmV0IjogIkVBUlRIIiwKICAgICJ3aWR0aCI6IDI1NjAsCiAgICAic2Nyb2xsV2lkdGgiOiAyNTYwLAogICAgImN0YUJvdHRvbSI6IDgyMC45MDYyNSwKICAgICJoZWlnaHQiOiAxNDQwCiAgfSwKICB7CiAgICAicGFnZSI6ICJoZXJvIiwKICAgICJwbGFuZXQiOiAiVkVOVVMiLAogICAgIndpZHRoIjogMjU2MCwKICAgICJzY3JvbGxXaWR0aCI6IDI1NjAsCiAgICAiY3RhQm90dG9tIjogODIwLjkwNjI1LAogICAgImhlaWdodCI6IDE0NDAKICB9LAogIHsKICAgICJwYWdlIjogImhlcm8iLAogICAgInBsYW5ldCI6ICJNQVJTIiwKICAgICJ3aWR0aCI6IDI1NjAsCiAgICAic2Nyb2xsV2lkdGgiOiAyNTYwLAogICAgImN0YUJvdHRvbSI6IDgyMC45MDYyNSwKICAgICJoZWlnaHQiOiAxNDQwCiAgfSwKICB7CiAgICAicGFnZSI6ICJoZXJvIiwKICAgICJwbGFuZXQiOiAiRUFSVEgiLAogICAgIndpZHRoIjogODQ0LAogICAgInNjcm9sbFdpZHRoIjogODQ0LAogICAgImN0YUJvdHRvbSI6IDI5NC41MzEyNSwKICAgICJoZWlnaHQiOiAzOTAKICB9LAogIHsKICAgICJwYWdlIjogImhlcm8iLAogICAgInBsYW5ldCI6ICJWRU5VUyIsCiAgICAid2lkdGgiOiA4NDQsCiAgICAic2Nyb2xsV2lkdGgiOiA4NDQsCiAgICAiY3RhQm90dG9tIjogMjk0LjUzMTI1LAogICAgImhlaWdodCI6IDM5MAogIH0sCiAgewogICAgInBhZ2UiOiAiaGVybyIsCiAgICAicGxhbmV0IjogIk1BUlMiLAogICAgIndpZHRoIjogODQ0LAogICAgInNjcm9sbFdpZHRoIjogODQ0LAogICAgImN0YUJvdHRvbSI6IDI5NC41MzEyNSwKICAgICJoZWlnaHQiOiAzOTAKICB9LAogIHsKICAgICJwYWdlIjogImhlcm8iLAogICAgInBsYW5ldCI6ICJFQVJUSCIsCiAgICAid2lkdGgiOiA2NDAsCiAgICAic2Nyb2xsV2lkdGgiOiA2NDAsCiAgICAiY3RhQm90dG9tIjogMzA0LjIzNDM3NSwKICAgICJoZWlnaHQiOiA0ODAKICB9LAogIHsKICAgICJwYWdlIjogImhlcm8iLAogICAgInBsYW5ldCI6ICJWRU5VUyIsCiAgICAid2lkdGgiOiA2NDAsCiAgICAic2Nyb2xsV2lkdGgiOiA2NDAsCiAgICAiY3RhQm90dG9tIjogMzA0LjIzNDM3NSwKICAgICJoZWlnaHQiOiA0ODAKICB9LAogIHsKICAgICJwYWdlIjogImhlcm8iLAogICAgInBsYW5ldCI6ICJNQVJTIiwKICAgICJ3aWR0aCI6IDY0MCwKICAgICJzY3JvbGxXaWR0aCI6IDY0MCwKICAgICJjdGFCb3R0b20iOiAzMDQuMjM0Mzc1LAogICAgImhlaWdodCI6IDQ4MAogIH0sCiAgewogICAgInBhZ2UiOiAiY2hhdCIsCiAgICAid2lkdGgiOiAzMjAsCiAgICAiaGVpZ2h0IjogNzIwLAogICAgInNjcm9sbFdpZHRoIjogMzIwCiAgfSwKICB7CiAgICAicGFnZSI6ICJoaXN0b3J5IiwKICAgICJ3aWR0aCI6IDMyMCwKICAgICJoZWlnaHQiOiA3MjAsCiAgICAic2Nyb2xsV2lkdGgiOiAzMjAKICB9LAogIHsKICAgICJwYWdlIjogImFzc2lzdGFudCIsCiAgICAid2lkdGgiOiAzMjAsCiAgICAiaGVpZ2h0IjogNzIwLAogICAgInNjcm9sbFdpZHRoIjogMzIwCiAgfSwKICB7CiAgICAicGFnZSI6ICJjb25uZWN0aW9ucyIsCiAgICAid2lkdGgiOiAzMjAsCiAgICAiaGVpZ2h0IjogNzIwLAogICAgInNjcm9sbFdpZHRoIjogMzIwCiAgfSwKICB7CiAgICAicGFnZSI6ICJ1c2FnZSIsCiAgICAid2lkdGgiOiAzMjAsCiAgICAiaGVpZ2h0IjogNzIwLAogICAgInNjcm9sbFdpZHRoIjogMzIwCiAgfSwKICB7CiAgICAicGFnZSI6ICJ0YXNrcyIsCiAgICAid2lkdGgiOiAzMjAsCiAgICAiaGVpZ2h0IjogNzIwLAogICAgInNjcm9sbFdpZHRoIjogMzIwCiAgfSwKICB7CiAgICAicGFnZSI6ICJzZXR0aW5ncyIsCiAgICAid2lkdGgiOiAzMjAsCiAgICAiaGVpZ2h0IjogNzIwLAogICAgInNjcm9sbFdpZHRoIjogMzIwCiAgfSwKICB7CiAgICAicGFnZSI6ICJtb2R1bGVzIiwKICAgICJ3aWR0aCI6IDMyMCwKICAgICJoZWlnaHQiOiA3MjAsCiAgICAic2Nyb2xsV2lkdGgiOiAzMjAKICB9LAogIHsKICAgICJwYWdlIjogImxvZ2luIiwKICAgICJ3aWR0aCI6IDMyMCwKICAgICJoZWlnaHQiOiA3MjAsCiAgICAic2Nyb2xsV2lkdGgiOiAzMjAKICB9LAogIHsKICAgICJwYWdlIjogImNoYXQiLAogICAgIndpZHRoIjogMzkwLAogICAgImhlaWdodCI6IDg0NCwKICAgICJzY3JvbGxXaWR0aCI6IDM5MAogIH0sCiAgewogICAgInBhZ2UiOiAiaGlzdG9yeSIsCiAgICAid2lkdGgiOiAzOTAsCiAgICAiaGVpZ2h0IjogODQ0LAogICAgInNjcm9sbFdpZHRoIjogMzkwCiAgfSwKICB7CiAgICAicGFnZSI6ICJhc3Npc3RhbnQiLAogICAgIndpZHRoIjogMzkwLAogICAgImhlaWdodCI6IDg0NCwKICAgICJzY3JvbGxXaWR0aCI6IDM5MAogIH0sCiAgewogICAgInBhZ2UiOiAiY29ubmVjdGlvbnMiLAogICAgIndpZHRoIjogMzkwLAogICAgImhlaWdodCI6IDg0NCwKICAgICJzY3JvbGxXaWR0aCI6IDM5MAogIH0sCiAgewogICAgInBhZ2UiOiAidXNhZ2UiLAogICAgIndpZHRoIjogMzkwLAogICAgImhlaWdodCI6IDg0NCwKICAgICJzY3JvbGxXaWR0aCI6IDM5MAogIH0sCiAgewogICAgInBhZ2UiOiAidGFza3MiLAogICAgIndpZHRoIjogMzkwLAogICAgImhlaWdodCI6IDg0NCwKICAgICJzY3JvbGxXaWR0aCI6IDM5MAogIH0sCiAgewogICAgInBhZ2UiOiAic2V0dGluZ3MiLAogICAgIndpZHRoIjogMzkwLAogICAgImhlaWdodCI6IDg0NCwKICAgICJzY3JvbGxXaWR0aCI6IDM5MAogIH0sCiAgewogICAgInBhZ2UiOiAibW9kdWxlcyIsCiAgICAid2lkdGgiOiAzOTAsCiAgICAiaGVpZ2h0IjogODQ0LAogICAgInNjcm9sbFdpZHRoIjogMzkwCiAgfSwKICB7CiAgICAicGFnZSI6ICJsb2dpbiIsCiAgICAid2lkdGgiOiAzOTAsCiAgICAiaGVpZ2h0IjogODQ0LAogICAgInNjcm9sbFdpZHRoIjogMzkwCiAgfSwKICB7CiAgICAicGFnZSI6ICJjaGF0IiwKICAgICJ3aWR0aCI6IDc2OCwKICAgICJoZWlnaHQiOiAxMDI0LAogICAgInNjcm9sbFdpZHRoIjogNzY4CiAgfSwKICB7CiAgICAicGFnZSI6ICJoaXN0b3J5IiwKICAgICJ3aWR0aCI6IDc2OCwKICAgICJoZWlnaHQiOiAxMDI0LAogICAgInNjcm9sbFdpZHRoIjogNzY4CiAgfSwKICB7CiAgICAicGFnZSI6ICJhc3Npc3RhbnQiLAogICAgIndpZHRoIjogNzY4LAogICAgImhlaWdodCI6IDEwMjQsCiAgICAic2Nyb2xsV2lkdGgiOiA3NjgKICB9LAogIHsKICAgICJwYWdlIjogImNvbm5lY3Rpb25zIiwKICAgICJ3aWR0aCI6IDc2OCwKICAgICJoZWlnaHQiOiAxMDI0LAogICAgInNjcm9sbFdpZHRoIjogNzY4CiAgfSwKICB7CiAgICAicGFnZSI6ICJ1c2FnZSIsCiAgICAid2lkdGgiOiA3NjgsCiAgICAiaGVpZ2h0IjogMTAyNCwKICAgICJzY3JvbGxXaWR0aCI6IDc2OAogIH0sCiAgewogICAgInBhZ2UiOiAidGFza3MiLAogICAgIndpZHRoIjogNzY4LAogICAgImhlaWdodCI6IDEwMjQsCiAgICAic2Nyb2xsV2lkdGgiOiA3NjgKICB9LAogIHsKICAgICJwYWdlIjogInNldHRpbmdzIiwKICAgICJ3aWR0aCI6IDc2OCwKICAgICJoZWlnaHQiOiAxMDI0LAogICAgInNjcm9sbFdpZHRoIjogNzY4CiAgfSwKICB7CiAgICAicGFnZSI6ICJtb2R1bGVzIiwKICAgICJ3aWR0aCI6IDc2OCwKICAgICJoZWlnaHQiOiAxMDI0LAogICAgInNjcm9sbFdpZHRoIjogNzY4CiAgfSwKICB7CiAgICAicGFnZSI6ICJsb2dpbiIsCiAgICAid2lkdGgiOiA3NjgsCiAgICAiaGVpZ2h0IjogMTAyNCwKICAgICJzY3JvbGxXaWR0aCI6IDc2OAogIH0sCiAgewogICAgInBhZ2UiOiAiY2hhdCIsCiAgICAid2lkdGgiOiAxMDI0LAogICAgImhlaWdodCI6IDc2OCwKICAgICJzY3JvbGxXaWR0aCI6IDEwMjQKICB9LAogIHsKICAgICJwYWdlIjogImhpc3RvcnkiLAogICAgIndpZHRoIjogMTAyNCwKICAgICJoZWlnaHQiOiA3NjgsCiAgICAic2Nyb2xsV2lkdGgiOiAxMDI0CiAgfSwKICB7CiAgICAicGFnZSI6ICJhc3Npc3RhbnQiLAogICAgIndpZHRoIjogMTAyNCwKICAgICJoZWlnaHQiOiA3NjgsCiAgICAic2Nyb2xsV2lkdGgiOiAxMDI0CiAgfSwKICB7CiAgICAicGFnZSI6ICJjb25uZWN0aW9ucyIsCiAgICAid2lkdGgiOiAxMDI0LAogICAgImhlaWdodCI6IDc2OCwKICAgICJzY3JvbGxXaWR0aCI6IDEwMjQKICB9LAogIHsKICAgICJwYWdlIjogInVzYWdlIiwKICAgICJ3aWR0aCI6IDEwMjQsCiAgICAiaGVpZ2h0IjogNzY4LAogICAgInNjcm9sbFdpZHRoIjogMTAyNAogIH0sCiAgewogICAgInBhZ2UiOiAidGFza3MiLAogICAgIndpZHRoIjogMTAyNCwKICAgICJoZWlnaHQiOiA3NjgsCiAgICAic2Nyb2xsV2lkdGgiOiAxMDI0CiAgfSwKICB7CiAgICAicGFnZSI6ICJzZXR0aW5ncyIsCiAgICAid2lkdGgiOiAxMDI0LAogICAgImhlaWdodCI6IDc2OCwKICAgICJzY3JvbGxXaWR0aCI6IDEwMjQKICB9LAogIHsKICAgICJwYWdlIjogIm1vZHVsZXMiLAogICAgIndpZHRoIjogMTAyNCwKICAgICJoZWlnaHQiOiA3NjgsCiAgICAic2Nyb2xsV2lkdGgiOiAxMDI0CiAgfSwKICB7CiAgICAicGFnZSI6ICJsb2dpbiIsCiAgICAid2lkdGgiOiAxMDI0LAogICAgImhlaWdodCI6IDc2OCwKICAgICJzY3JvbGxXaWR0aCI6IDEwMjQKICB9LAogIHsKICAgICJwYWdlIjogImNoYXQiLAogICAgIndpZHRoIjogMTQ0MCwKICAgICJoZWlnaHQiOiA5MDAsCiAgICAic2Nyb2xsV2lkdGgiOiAxNDQwCiAgfSwKICB7CiAgICAicGFnZSI6ICJoaXN0b3J5IiwKICAgICJ3aWR0aCI6IDE0NDAsCiAgICAiaGVpZ2h0IjogOTAwLAogICAgInNjcm9sbFdpZHRoIjogMTQ0MAogIH0sCiAgewogICAgInBhZ2UiOiAiYXNzaXN0YW50IiwKICAgICJ3aWR0aCI6IDE0NDAsCiAgICAiaGVpZ2h0IjogOTAwLAogICAgInNjcm9sbFdpZHRoIjogMTQ0MAogIH0sCiAgewogICAgInBhZ2UiOiAiY29ubmVjdGlvbnMiLAogICAgIndpZHRoIjogMTQ0MCwKICAgICJoZWlnaHQiOiA5MDAsCiAgICAic2Nyb2xsV2lkdGgiOiAxNDQwCiAgfSwKICB7CiAgICAicGFnZSI6ICJ1c2FnZSIsCiAgICAid2lkdGgiOiAxNDQwLAogICAgImhlaWdodCI6IDkwMCwKICAgICJzY3JvbGxXaWR0aCI6IDE0NDAKICB9LAogIHsKICAgICJwYWdlIjogInRhc2tzIiwKICAgICJ3aWR0aCI6IDE0NDAsCiAgICAiaGVpZ2h0IjogOTAwLAogICAgInNjcm9sbFdpZHRoIjogMTQ0MAogIH0sCiAgewogICAgInBhZ2UiOiAic2V0dGluZ3MiLAogICAgIndpZHRoIjogMTQ0MCwKICAgICJoZWlnaHQiOiA5MDAsCiAgICAic2Nyb2xsV2lkdGgiOiAxNDQwCiAgfSwKICB7CiAgICAicGFnZSI6ICJtb2R1bGVzIiwKICAgICJ3aWR0aCI6IDE0NDAsCiAgICAiaGVpZ2h0IjogOTAwLAogICAgInNjcm9sbFdpZHRoIjogMTQ0MAogIH0sCiAgewogICAgInBhZ2UiOiAibG9naW4iLAogICAgIndpZHRoIjogMTQ0MCwKICAgICJoZWlnaHQiOiA5MDAsCiAgICAic2Nyb2xsV2lkdGgiOiAxNDQwCiAgfSwKICB7CiAgICAicGFnZSI6ICJjaGF0IiwKICAgICJ3aWR0aCI6IDI1NjAsCiAgICAiaGVpZ2h0IjogMTQ0MCwKICAgICJzY3JvbGxXaWR0aCI6IDI1NjAKICB9LAogIHsKICAgICJwYWdlIjogImhpc3RvcnkiLAogICAgIndpZHRoIjogMjU2MCwKICAgICJoZWlnaHQiOiAxNDQwLAogICAgInNjcm9sbFdpZHRoIjogMjU2MAogIH0sCiAgewogICAgInBhZ2UiOiAiYXNzaXN0YW50IiwKICAgICJ3aWR0aCI6IDI1NjAsCiAgICAiaGVpZ2h0IjogMTQ0MCwKICAgICJzY3JvbGxXaWR0aCI6IDI1NjAKICB9LAogIHsKICAgICJwYWdlIjogImNvbm5lY3Rpb25zIiwKICAgICJ3aWR0aCI6IDI1NjAsCiAgICAiaGVpZ2h0IjogMTQ0MCwKICAgICJzY3JvbGxXaWR0aCI6IDI1NjAKICB9LAogIHsKICAgICJwYWdlIjogInVzYWdlIiwKICAgICJ3aWR0aCI6IDI1NjAsCiAgICAiaGVpZ2h0IjogMTQ0MCwKICAgICJzY3JvbGxXaWR0aCI6IDI1NjAKICB9LAogIHsKICAgICJwYWdlIjogInRhc2tzIiwKICAgICJ3aWR0aCI6IDI1NjAsCiAgICAiaGVpZ2h0IjogMTQ0MCwKICAgICJzY3JvbGxXaWR0aCI6IDI1NjAKICB9LAogIHsKICAgICJwYWdlIjogInNldHRpbmdzIiwKICAgICJ3aWR0aCI6IDI1NjAsCiAgICAiaGVpZ2h0IjogMTQ0MCwKICAgICJzY3JvbGxXaWR0aCI6IDI1NjAKICB9LAogIHsKICAgICJwYWdlIjogIm1vZHVsZXMiLAogICAgIndpZHRoIjogMjU2MCwKICAgICJoZWlnaHQiOiAxNDQwLAogICAgInNjcm9sbFdpZHRoIjogMjU2MAogIH0sCiAgewogICAgInBhZ2UiOiAibG9naW4iLAogICAgIndpZHRoIjogMjU2MCwKICAgICJoZWlnaHQiOiAxNDQwLAogICAgInNjcm9sbFdpZHRoIjogMjU2MAogIH0KXQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c28c8b2359d0cc83445a-627ec433934876de04c9",
+          "file": "hero.spec.ts",
+          "line": 105,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "workspace.spec.ts",
+      "file": "workspace.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "聊天发送、停止、预算拒绝与中文输入法事件",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 825,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T04:34:15.940Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b163ed09f68681248ada-ad8d9102bcac83c93546",
+          "file": "workspace.spec.ts",
+          "line": 2,
+          "column": 1
+        },
+        {
+          "title": "重试中断保留旧答案，第三次完成后禁用重试",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4374,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T04:34:16.773Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b163ed09f68681248ada-3929736aeb256257645e",
+          "file": "workspace.spec.ts",
+          "line": 19,
+          "column": 1
+        },
+        {
+          "title": "FE-A03：测试期间保存新地址，旧结果不能标记新地址为可用",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 683,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T04:34:18.979Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b163ed09f68681248ada-108aa43e6c9ca303e655",
+          "file": "workspace.spec.ts",
+          "line": 34,
+          "column": 1
+        },
+        {
+          "title": "FE-A03：离开连接页面取消尚未完成的测试",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 831,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T04:34:19.670Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b163ed09f68681248ada-b900e9bf0e9d78de7f7f",
+          "file": "workspace.spec.ts",
+          "line": 47,
+          "column": 1
+        },
+        {
+          "title": "FE-A04：助手标签可读、可键盘切换，草稿需显式启用",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 896,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T04:34:20.510Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b163ed09f68681248ada-8b941d5e6bb8539d0c61",
+          "file": "workspace.spec.ts",
+          "line": 56,
+          "column": 1
+        },
+        {
+          "title": "历史筛选、导出落盘与删除后下载失效",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2166,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T04:34:21.157Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b163ed09f68681248ada-2cf63d9b487387f0f2e7",
+          "file": "workspace.spec.ts",
+          "line": 76,
+          "column": 1
+        },
+        {
+          "title": "预算校验、暂停与恢复",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1057,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T04:34:21.416Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b163ed09f68681248ada-0d54cf0daf450dc3a7f0",
+          "file": "workspace.spec.ts",
+          "line": 98,
+          "column": 1
+        },
+        {
+          "title": "普通预览身份仅见个人会话，管理路由被拦截",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 781,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T04:34:22.481Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b163ed09f68681248ada-656b2e81b1fa5cf701c1",
+          "file": "workspace.spec.ts",
+          "line": 114,
+          "column": 1
+        },
+        {
+          "title": "手机菜单和管理页返回星球首页",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1969,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T04:34:23.271Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b163ed09f68681248ada-15c9c3309a58cb6966f1",
+          "file": "workspace.spec.ts",
+          "line": 125,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-05T04:34:08.475Z",
+    "duration": 17446.345,
+    "expected": 17,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

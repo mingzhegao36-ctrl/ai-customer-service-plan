@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:17.5-alpine
+    environment:
+      POSTGRES_USER: ai_cs_test
+      POSTGRES_PASSWORD: ai_cs_test_only
+      POSTGRES_DB: ai_cs_business
+    ports:
+      - "55432:5432"
+    volumes:
+      - ./postgres-test-init.sql:/docker-entrypoint-initdb.d/10-create-journal.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ai_cs_test -d ai_cs_business"]
+      interval: 2s
+      timeout: 3s
+      retries: 20

@@ -1,0 +1,25 @@
+<script setup lang="ts">
+import { computed, reactive, ref } from 'vue'
+import AppIcon from '../components/AppIcon.vue'
+import PageHeading from '../components/PageHeading.vue'
+import AppModal from '../components/AppModal.vue'
+import { workspace } from '../stores/workspace'
+const { state, activeVersion } = workspace
+const form = reactive({ name: state.assistantName, description: state.assistantDescription, prompt: activeVersion.value?.prompt ?? '' })
+const versionTab = ref(false)
+const revokeId = ref('')
+const draftCount = computed(() => state.versions.filter(v => v.state === 'draft').length)
+const versionLabel = { active: '当前启用', draft: '草稿', revoked: '已停用' }
+async function save() { if (await workspace.saveAssistant(form.name, form.description, form.prompt)) versionTab.value = true }
+async function activate(id: string) { await workspace.activateVersion(id) }
+async function revoke() { if (revokeId.value) await workspace.revokeVersion(revokeId.value); revokeId.value = '' }
+</script>
+<template>
+  <PageHeading title="助手配置" subtitle="定义助手如何回应，让每一次修改都有版本可循。" eyebrow="ASSISTANT STUDIO"><RouterLink class="button" to="/chat"><AppIcon name="chat" :size="14" />去对话测试</RouterLink></PageHeading>
+  <div class="assistant-summary card"><span class="large-bot"><AppIcon name="bot" :size="32" /></span><div><h2>{{ state.assistantName }}<span class="badge" :class="activeVersion ? 'green' : 'red'">{{ activeVersion ? (state.mode === 'demo' ? '示例启用' : '已启用') : '已停用' }}</span></h2><p>{{ state.assistantDescription }}</p><div class="assistant-tags"><span><AppIcon name="plug" :size="12" />{{ state.connection.model || '未绑定模型' }}</span><span><AppIcon name="layers" :size="12" />{{ activeVersion?.id ?? '无启用版本' }}</span><span><AppIcon name="lock" :size="12" />仅内部使用</span></div></div></div>
+  <div class="section-tabs" aria-label="助手配置页面"><button :aria-pressed="!versionTab" :class="{ active: !versionTab }" @click="versionTab = false">基础配置</button><button :aria-pressed="versionTab" :class="{ active: versionTab }" @click="versionTab = true">版本记录<span>{{ state.versions.length }}</span></button></div>
+  <div v-if="!versionTab" class="two-column-layout"><section class="card"><div class="card-header"><h2>助手的身份与回答方式</h2><span class="subtle">保存后生成草稿</span></div><form class="card-body" @submit.prevent="save"><label class="form-field"><span>助手名称</span><input v-model="form.name" class="input" required maxlength="40" /></label><label class="form-field"><span>一句话介绍</span><input v-model="form.description" class="input" maxlength="100" /></label><label class="form-field"><span>系统提示词</span><textarea v-model="form.prompt" class="input textarea prompt-editor" rows="7" required maxlength="4000"></textarea><small>建议说明服务范围、回答风格和遇到未知信息时的处理方式。</small></label><div class="form-actions"><button class="button primary" type="submit"><AppIcon name="check" :size="14" />{{ state.mode === 'demo' ? '保存为示例草稿' : '保存为草稿版本' }}</button></div></form></section><aside class="stack"><section class="card"><div class="card-header"><h2>回答边界</h2><AppIcon name="shield" :size="16" /></div><div class="card-body boundary-list"><div><AppIcon name="check" :size="15" /><span>基于已确认的信息回应</span></div><div><AppIcon name="check" :size="15" /><span>不编造政策、价格与执行结果</span></div><div><AppIcon name="check" :size="15" /><span>只使用当前会话的有效上下文</span></div><div><AppIcon name="check" :size="15" /><span>不知道时说明并建议人工核实</span></div></div></section><div class="note orange"><AppIcon name="layers" :size="16" /><span>{{ state.mode === 'demo' ? '这里编辑的是示例配置。' : '草稿会绑定当前模型部署和预算策略；启用后才能设为新会话的默认版本。' }}</span></div></aside></div>
+  <section v-else class="card table-card"><div class="card-header"><div><h2>版本记录</h2><p>{{ draftCount }} 个草稿{{ state.mode === 'demo' ? ' · 示例配置刷新后重置' : '' }}</p></div><span class="badge">{{ state.mode === 'demo' ? '页面版本演示' : '服务端版本记录' }}</span></div><div class="table-wrap"><table><thead><tr><th>版本</th><th>状态</th><th>提示词摘要</th><th>创建时间</th><th>操作</th></tr></thead><tbody><tr v-for="version in state.versions" :key="version.id"><td class="strong">{{ version.id }}</td><td><span class="badge" :class="{ green: version.state === 'active', red: version.state === 'revoked', orange: version.state === 'draft' }">{{ versionLabel[version.state] }}</span></td><td class="version-summary">{{ version.prompt.slice(0, 36) }}…</td><td class="subtle">{{ version.date }}</td><td><div class="flex-row"><button v-if="version.state === 'draft'" class="button small" @click="activate(version.id)"><AppIcon name="play" :size="12" />{{ state.mode === 'demo' ? '启用示例' : '启用并设为默认' }}</button><button v-if="version.state !== 'revoked'" class="text-button" @click="revokeId = version.id">停用</button><span v-else class="subtle">不可重新启用</span></div></td></tr></tbody></table></div></section>
+  <AppModal :open="!!revokeId" :title="state.mode === 'demo' ? '停用这个示例版本？' : '停用这个助手版本？'" :description="state.mode === 'demo' ? '停用当前版本后，演示聊天将停止。' : '停用默认版本后，新会话将无法使用这个助手，已有运行也会受到授权纪元控制。'" @close="revokeId = ''"><div class="form-actions"><button class="button" @click="revokeId = ''">取消</button><button class="button danger" @click="revoke">确认停用</button></div></AppModal>
+</template>
+

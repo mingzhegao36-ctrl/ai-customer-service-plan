@@ -1,0 +1,638 @@
+[
+  {
+    "page": "hero",
+    "planet": "EARTH",
+    "width": 320,
+    "scrollWidth": 320,
+    "ctaBottom": 429.59375,
+    "height": 720
+  },
+  {
+    "page": "hero",
+    "planet": "VENUS",
+    "width": 320,
+    "scrollWidth": 320,
+    "ctaBottom": 429.59375,
+    "height": 720
+  },
+  {
+    "page": "hero",
+    "planet": "MARS",
+    "width": 320,
+    "scrollWidth": 320,
+    "ctaBottom": 429.59375,
+    "height": 720
+  },
+  {
+    "page": "hero",
+    "planet": "EARTH",
+    "width": 390,
+    "scrollWidth": 390,
+    "ctaBottom": 441.28973388671875,
+    "height": 844
+  },
+  {
+    "page": "hero",
+    "planet": "VENUS",
+    "width": 390,
+    "scrollWidth": 390,
+    "ctaBottom": 417.36785888671875,
+    "height": 844
+  },
+  {
+    "page": "hero",
+    "planet": "MARS",
+    "width": 390,
+    "scrollWidth": 390,
+    "ctaBottom": 417.36785888671875,
+    "height": 844
+  },
+  {
+    "page": "hero",
+    "planet": "EARTH",
+    "width": 500,
+    "scrollWidth": 500,
+    "ctaBottom": 405.671875,
+    "height": 700
+  },
+  {
+    "page": "hero",
+    "planet": "VENUS",
+    "width": 500,
+    "scrollWidth": 500,
+    "ctaBottom": 405.671875,
+    "height": 700
+  },
+  {
+    "page": "hero",
+    "planet": "MARS",
+    "width": 500,
+    "scrollWidth": 500,
+    "ctaBottom": 405.671875,
+    "height": 700
+  },
+  {
+    "page": "hero",
+    "planet": "EARTH",
+    "width": 579,
+    "scrollWidth": 579,
+    "ctaBottom": 405.671875,
+    "height": 800
+  },
+  {
+    "page": "hero",
+    "planet": "VENUS",
+    "width": 579,
+    "scrollWidth": 579,
+    "ctaBottom": 405.671875,
+    "height": 800
+  },
+  {
+    "page": "hero",
+    "planet": "MARS",
+    "width": 579,
+    "scrollWidth": 579,
+    "ctaBottom": 405.671875,
+    "height": 800
+  },
+  {
+    "page": "hero",
+    "planet": "EARTH",
+    "width": 580,
+    "scrollWidth": 580,
+    "ctaBottom": 563.53125,
+    "height": 900
+  },
+  {
+    "page": "hero",
+    "planet": "VENUS",
+    "width": 580,
+    "scrollWidth": 580,
+    "ctaBottom": 563.53125,
+    "height": 900
+  },
+  {
+    "page": "hero",
+    "planet": "MARS",
+    "width": 580,
+    "scrollWidth": 580,
+    "ctaBottom": 563.53125,
+    "height": 900
+  },
+  {
+    "page": "hero",
+    "planet": "EARTH",
+    "width": 768,
+    "scrollWidth": 768,
+    "ctaBottom": 591.6913452148438,
+    "height": 1024
+  },
+  {
+    "page": "hero",
+    "planet": "VENUS",
+    "width": 768,
+    "scrollWidth": 768,
+    "ctaBottom": 591.6913452148438,
+    "height": 1024
+  },
+  {
+    "page": "hero",
+    "planet": "MARS",
+    "width": 768,
+    "scrollWidth": 768,
+    "ctaBottom": 591.6913452148438,
+    "height": 1024
+  },
+  {
+    "page": "hero",
+    "planet": "EARTH",
+    "width": 1030,
+    "scrollWidth": 1030,
+    "ctaBottom": 563.53125,
+    "height": 900
+  },
+  {
+    "page": "hero",
+    "planet": "VENUS",
+    "width": 1030,
+    "scrollWidth": 1030,
+    "ctaBottom": 563.53125,
+    "height": 900
+  },
+  {
+    "page": "hero",
+    "planet": "MARS",
+    "width": 1030,
+    "scrollWidth": 1030,
+    "ctaBottom": 563.53125,
+    "height": 900
+  },
+  {
+    "page": "hero",
+    "planet": "EARTH",
+    "width": 1031,
+    "scrollWidth": 1031,
+    "ctaBottom": 510.9759216308594,
+    "height": 900
+  },
+  {
+    "page": "hero",
+    "planet": "VENUS",
+    "width": 1031,
+    "scrollWidth": 1031,
+    "ctaBottom": 510.9759216308594,
+    "height": 900
+  },
+  {
+    "page": "hero",
+    "planet": "MARS",
+    "width": 1031,
+    "scrollWidth": 1031,
+    "ctaBottom": 510.9759216308594,
+    "height": 900
+  },
+  {
+    "page": "hero",
+    "planet": "EARTH",
+    "width": 1353,
+    "scrollWidth": 1353,
+    "ctaBottom": 663,
+    "height": 1163
+  },
+  {
+    "page": "hero",
+    "planet": "VENUS",
+    "width": 1353,
+    "scrollWidth": 1353,
+    "ctaBottom": 663,
+    "height": 1163
+  },
+  {
+    "page": "hero",
+    "planet": "MARS",
+    "width": 1353,
+    "scrollWidth": 1353,
+    "ctaBottom": 663,
+    "height": 1163
+  },
+  {
+    "page": "hero",
+    "planet": "EARTH",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "ctaBottom": 513.046875,
+    "height": 900
+  },
+  {
+    "page": "hero",
+    "planet": "VENUS",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "ctaBottom": 513.046875,
+    "height": 900
+  },
+  {
+    "page": "hero",
+    "planet": "MARS",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "ctaBottom": 513.046875,
+    "height": 900
+  },
+  {
+    "page": "hero",
+    "planet": "EARTH",
+    "width": 2560,
+    "scrollWidth": 2560,
+    "ctaBottom": 820.90625,
+    "height": 1440
+  },
+  {
+    "page": "hero",
+    "planet": "VENUS",
+    "width": 2560,
+    "scrollWidth": 2560,
+    "ctaBottom": 820.90625,
+    "height": 1440
+  },
+  {
+    "page": "hero",
+    "planet": "MARS",
+    "width": 2560,
+    "scrollWidth": 2560,
+    "ctaBottom": 820.90625,
+    "height": 1440
+  },
+  {
+    "page": "hero",
+    "planet": "EARTH",
+    "width": 844,
+    "scrollWidth": 844,
+    "ctaBottom": 294.53125,
+    "height": 390
+  },
+  {
+    "page": "hero",
+    "planet": "VENUS",
+    "width": 844,
+    "scrollWidth": 844,
+    "ctaBottom": 294.53125,
+    "height": 390
+  },
+  {
+    "page": "hero",
+    "planet": "MARS",
+    "width": 844,
+    "scrollWidth": 844,
+    "ctaBottom": 294.53125,
+    "height": 390
+  },
+  {
+    "page": "hero",
+    "planet": "EARTH",
+    "width": 640,
+    "scrollWidth": 640,
+    "ctaBottom": 304.234375,
+    "height": 480
+  },
+  {
+    "page": "hero",
+    "planet": "VENUS",
+    "width": 640,
+    "scrollWidth": 640,
+    "ctaBottom": 304.234375,
+    "height": 480
+  },
+  {
+    "page": "hero",
+    "planet": "MARS",
+    "width": 640,
+    "scrollWidth": 640,
+    "ctaBottom": 304.234375,
+    "height": 480
+  },
+  {
+    "page": "chat",
+    "width": 320,
+    "height": 720,
+    "scrollWidth": 320
+  },
+  {
+    "page": "history",
+    "width": 320,
+    "height": 720,
+    "scrollWidth": 320
+  },
+  {
+    "page": "assistant",
+    "width": 320,
+    "height": 720,
+    "scrollWidth": 320
+  },
+  {
+    "page": "connections",
+    "width": 320,
+    "height": 720,
+    "scrollWidth": 320
+  },
+  {
+    "page": "usage",
+    "width": 320,
+    "height": 720,
+    "scrollWidth": 320
+  },
+  {
+    "page": "tasks",
+    "width": 320,
+    "height": 720,
+    "scrollWidth": 320
+  },
+  {
+    "page": "settings",
+    "width": 320,
+    "height": 720,
+    "scrollWidth": 320
+  },
+  {
+    "page": "modules",
+    "width": 320,
+    "height": 720,
+    "scrollWidth": 320
+  },
+  {
+    "page": "login",
+    "width": 320,
+    "height": 720,
+    "scrollWidth": 320
+  },
+  {
+    "page": "chat",
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390
+  },
+  {
+    "page": "history",
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390
+  },
+  {
+    "page": "assistant",
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390
+  },
+  {
+    "page": "connections",
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390
+  },
+  {
+    "page": "usage",
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390
+  },
+  {
+    "page": "tasks",
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390
+  },
+  {
+    "page": "settings",
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390
+  },
+  {
+    "page": "modules",
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390
+  },
+  {
+    "page": "login",
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390
+  },
+  {
+    "page": "chat",
+    "width": 768,
+    "height": 1024,
+    "scrollWidth": 768
+  },
+  {
+    "page": "history",
+    "width": 768,
+    "height": 1024,
+    "scrollWidth": 768
+  },
+  {
+    "page": "assistant",
+    "width": 768,
+    "height": 1024,
+    "scrollWidth": 768
+  },
+  {
+    "page": "connections",
+    "width": 768,
+    "height": 1024,
+    "scrollWidth": 768
+  },
+  {
+    "page": "usage",
+    "width": 768,
+    "height": 1024,
+    "scrollWidth": 768
+  },
+  {
+    "page": "tasks",
+    "width": 768,
+    "height": 1024,
+    "scrollWidth": 768
+  },
+  {
+    "page": "settings",
+    "width": 768,
+    "height": 1024,
+    "scrollWidth": 768
+  },
+  {
+    "page": "modules",
+    "width": 768,
+    "height": 1024,
+    "scrollWidth": 768
+  },
+  {
+    "page": "login",
+    "width": 768,
+    "height": 1024,
+    "scrollWidth": 768
+  },
+  {
+    "page": "chat",
+    "width": 1024,
+    "height": 768,
+    "scrollWidth": 1024
+  },
+  {
+    "page": "history",
+    "width": 1024,
+    "height": 768,
+    "scrollWidth": 1024
+  },
+  {
+    "page": "assistant",
+    "width": 1024,
+    "height": 768,
+    "scrollWidth": 1024
+  },
+  {
+    "page": "connections",
+    "width": 1024,
+    "height": 768,
+    "scrollWidth": 1024
+  },
+  {
+    "page": "usage",
+    "width": 1024,
+    "height": 768,
+    "scrollWidth": 1024
+  },
+  {
+    "page": "tasks",
+    "width": 1024,
+    "height": 768,
+    "scrollWidth": 1024
+  },
+  {
+    "page": "settings",
+    "width": 1024,
+    "height": 768,
+    "scrollWidth": 1024
+  },
+  {
+    "page": "modules",
+    "width": 1024,
+    "height": 768,
+    "scrollWidth": 1024
+  },
+  {
+    "page": "login",
+    "width": 1024,
+    "height": 768,
+    "scrollWidth": 1024
+  },
+  {
+    "page": "chat",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1440
+  },
+  {
+    "page": "history",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1440
+  },
+  {
+    "page": "assistant",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1440
+  },
+  {
+    "page": "connections",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1440
+  },
+  {
+    "page": "usage",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1440
+  },
+  {
+    "page": "tasks",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1440
+  },
+  {
+    "page": "settings",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1440
+  },
+  {
+    "page": "modules",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1440
+  },
+  {
+    "page": "login",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1440
+  },
+  {
+    "page": "chat",
+    "width": 2560,
+    "height": 1440,
+    "scrollWidth": 2560
+  },
+  {
+    "page": "history",
+    "width": 2560,
+    "height": 1440,
+    "scrollWidth": 2560
+  },
+  {
+    "page": "assistant",
+    "width": 2560,
+    "height": 1440,
+    "scrollWidth": 2560
+  },
+  {
+    "page": "connections",
+    "width": 2560,
+    "height": 1440,
+    "scrollWidth": 2560
+  },
+  {
+    "page": "usage",
+    "width": 2560,
+    "height": 1440,
+    "scrollWidth": 2560
+  },
+  {
+    "page": "tasks",
+    "width": 2560,
+    "height": 1440,
+    "scrollWidth": 2560
+  },
+  {
+    "page": "settings",
+    "width": 2560,
+    "height": 1440,
+    "scrollWidth": 2560
+  },
+  {
+    "page": "modules",
+    "width": 2560,
+    "height": 1440,
+    "scrollWidth": 2560
+  },
+  {
+    "page": "login",
+    "width": 2560,
+    "height": 1440,
+    "scrollWidth": 2560
+  }
+]

@@ -1,0 +1,32 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python caches, environments, and runtime data
+**/__pycache__/
+**/.venv/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+*.py[cod]
+*.db
+*.sqlite
+*.sqlite3
+
+# Frontend dependencies and generated output
+**/node_modules/
+**/dist/
+**/playwright-report/
+**/test-results/
+**/.vite/
+
+# Logs and editor files
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

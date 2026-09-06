@@ -1,0 +1,558 @@
+{
+  "checkedAt": "2026-09-05T03:21:14.200Z",
+  "consoleErrors": [],
+  "routes": [
+    {
+      "route": "chat",
+      "title": "对话工作台",
+      "horizontalOverflow": false
+    },
+    {
+      "route": "history",
+      "title": "会话记录",
+      "horizontalOverflow": false
+    },
+    {
+      "route": "assistant",
+      "title": "助手配置",
+      "horizontalOverflow": false
+    },
+    {
+      "route": "connections",
+      "title": "模型连接",
+      "horizontalOverflow": false
+    },
+    {
+      "route": "usage",
+      "title": "用量与预算",
+      "horizontalOverflow": false
+    },
+    {
+      "route": "tasks",
+      "title": "任务中心",
+      "horizontalOverflow": false
+    },
+    {
+      "route": "settings",
+      "title": "工作空间设置",
+      "horizontalOverflow": false
+    },
+    {
+      "route": "modules",
+      "title": "功能模块与演进",
+      "horizontalOverflow": false
+    },
+    {
+      "route": "login",
+      "title": "进入你的\n客服工作空间。",
+      "horizontalOverflow": false
+    }
+  ],
+  "layouts": [
+    {
+      "route": "chat",
+      "width": 320,
+      "height": 720,
+      "scrollWidth": 320,
+      "overflow": false,
+      "bodyHeight": 838
+    },
+    {
+      "route": "history",
+      "width": 320,
+      "height": 720,
+      "scrollWidth": 320,
+      "overflow": false,
+      "bodyHeight": 917
+    },
+    {
+      "route": "assistant",
+      "width": 320,
+      "height": 720,
+      "scrollWidth": 320,
+      "overflow": false,
+      "bodyHeight": 1452
+    },
+    {
+      "route": "connections",
+      "width": 320,
+      "height": 720,
+      "scrollWidth": 320,
+      "overflow": false,
+      "bodyHeight": 1272
+    },
+    {
+      "route": "usage",
+      "width": 320,
+      "height": 720,
+      "scrollWidth": 320,
+      "overflow": false,
+      "bodyHeight": 1593
+    },
+    {
+      "route": "tasks",
+      "width": 320,
+      "height": 720,
+      "scrollWidth": 320,
+      "overflow": false,
+      "bodyHeight": 720
+    },
+    {
+      "route": "settings",
+      "width": 320,
+      "height": 720,
+      "scrollWidth": 320,
+      "overflow": false,
+      "bodyHeight": 1393
+    },
+    {
+      "route": "modules",
+      "width": 320,
+      "height": 720,
+      "scrollWidth": 320,
+      "overflow": false,
+      "bodyHeight": 2673
+    },
+    {
+      "route": "login",
+      "width": 320,
+      "height": 720,
+      "scrollWidth": 320,
+      "overflow": false,
+      "bodyHeight": 742
+    },
+    {
+      "route": "chat",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "overflow": false,
+      "bodyHeight": 867
+    },
+    {
+      "route": "history",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "overflow": false,
+      "bodyHeight": 844
+    },
+    {
+      "route": "assistant",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "overflow": false,
+      "bodyHeight": 1384
+    },
+    {
+      "route": "connections",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "overflow": false,
+      "bodyHeight": 1223
+    },
+    {
+      "route": "usage",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "overflow": false,
+      "bodyHeight": 1557
+    },
+    {
+      "route": "tasks",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "overflow": false,
+      "bodyHeight": 844
+    },
+    {
+      "route": "settings",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "overflow": false,
+      "bodyHeight": 1353
+    },
+    {
+      "route": "modules",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "overflow": false,
+      "bodyHeight": 2547
+    },
+    {
+      "route": "login",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "overflow": false,
+      "bodyHeight": 844
+    },
+    {
+      "route": "chat",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "overflow": false,
+      "bodyHeight": 1040
+    },
+    {
+      "route": "history",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "overflow": false,
+      "bodyHeight": 1024
+    },
+    {
+      "route": "assistant",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "overflow": false,
+      "bodyHeight": 1417
+    },
+    {
+      "route": "connections",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "overflow": false,
+      "bodyHeight": 1256
+    },
+    {
+      "route": "usage",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "overflow": false,
+      "bodyHeight": 1475
+    },
+    {
+      "route": "tasks",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "overflow": false,
+      "bodyHeight": 1024
+    },
+    {
+      "route": "settings",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "overflow": false,
+      "bodyHeight": 1376
+    },
+    {
+      "route": "modules",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "overflow": false,
+      "bodyHeight": 1704
+    },
+    {
+      "route": "login",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "overflow": false,
+      "bodyHeight": 1024
+    },
+    {
+      "route": "chat",
+      "width": 1024,
+      "height": 768,
+      "scrollWidth": 1024,
+      "overflow": false,
+      "bodyHeight": 828
+    },
+    {
+      "route": "history",
+      "width": 1024,
+      "height": 768,
+      "scrollWidth": 1024,
+      "overflow": false,
+      "bodyHeight": 837
+    },
+    {
+      "route": "assistant",
+      "width": 1024,
+      "height": 768,
+      "scrollWidth": 1024,
+      "overflow": false,
+      "bodyHeight": 1429
+    },
+    {
+      "route": "connections",
+      "width": 1024,
+      "height": 768,
+      "scrollWidth": 1024,
+      "overflow": false,
+      "bodyHeight": 1268
+    },
+    {
+      "route": "usage",
+      "width": 1024,
+      "height": 768,
+      "scrollWidth": 1024,
+      "overflow": false,
+      "bodyHeight": 1473
+    },
+    {
+      "route": "tasks",
+      "width": 1024,
+      "height": 768,
+      "scrollWidth": 1024,
+      "overflow": false,
+      "bodyHeight": 768
+    },
+    {
+      "route": "settings",
+      "width": 1024,
+      "height": 768,
+      "scrollWidth": 1024,
+      "overflow": false,
+      "bodyHeight": 1388
+    },
+    {
+      "route": "modules",
+      "width": 1024,
+      "height": 768,
+      "scrollWidth": 1024,
+      "overflow": false,
+      "bodyHeight": 1675
+    },
+    {
+      "route": "login",
+      "width": 1024,
+      "height": 768,
+      "scrollWidth": 1024,
+      "overflow": false,
+      "bodyHeight": 768
+    },
+    {
+      "route": "chat",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "overflow": false,
+      "bodyHeight": 1046
+    },
+    {
+      "route": "history",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "overflow": false,
+      "bodyHeight": 900
+    },
+    {
+      "route": "assistant",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "overflow": false,
+      "bodyHeight": 1080
+    },
+    {
+      "route": "connections",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "overflow": false,
+      "bodyHeight": 900
+    },
+    {
+      "route": "usage",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "overflow": false,
+      "bodyHeight": 1015
+    },
+    {
+      "route": "tasks",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "overflow": false,
+      "bodyHeight": 900
+    },
+    {
+      "route": "settings",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "overflow": false,
+      "bodyHeight": 917
+    },
+    {
+      "route": "modules",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "overflow": false,
+      "bodyHeight": 1399
+    },
+    {
+      "route": "login",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "overflow": false,
+      "bodyHeight": 900
+    },
+    {
+      "route": "chat",
+      "width": 2560,
+      "height": 1440,
+      "scrollWidth": 2560,
+      "overflow": false,
+      "bodyHeight": 1462
+    },
+    {
+      "route": "history",
+      "width": 2560,
+      "height": 1440,
+      "scrollWidth": 2560,
+      "overflow": false,
+      "bodyHeight": 1440
+    },
+    {
+      "route": "assistant",
+      "width": 2560,
+      "height": 1440,
+      "scrollWidth": 2560,
+      "overflow": false,
+      "bodyHeight": 1440
+    },
+    {
+      "route": "connections",
+      "width": 2560,
+      "height": 1440,
+      "scrollWidth": 2560,
+      "overflow": false,
+      "bodyHeight": 1440
+    },
+    {
+      "route": "usage",
+      "width": 2560,
+      "height": 1440,
+      "scrollWidth": 2560,
+      "overflow": false,
+      "bodyHeight": 1440
+    },
+    {
+      "route": "tasks",
+      "width": 2560,
+      "height": 1440,
+      "scrollWidth": 2560,
+      "overflow": false,
+      "bodyHeight": 1440
+    },
+    {
+      "route": "settings",
+      "width": 2560,
+      "height": 1440,
+      "scrollWidth": 2560,
+      "overflow": false,
+      "bodyHeight": 1440
+    },
+    {
+      "route": "modules",
+      "width": 2560,
+      "height": 1440,
+      "scrollWidth": 2560,
+      "overflow": false,
+      "bodyHeight": 1440
+    },
+    {
+      "route": "login",
+      "width": 2560,
+      "height": 1440,
+      "scrollWidth": 2560,
+      "overflow": false,
+      "bodyHeight": 1440
+    }
+  ],
+  "cases": [
+    {
+      "name": "聊天生成",
+      "pass": true
+    },
+    {
+      "name": "重试中断保留旧答案",
+      "pass": true
+    },
+    {
+      "name": "普通身份直接访问管理路由被重定向",
+      "pass": true
+    }
+  ],
+  "browserVersion": "152.0.4191.62",
+  "domain": {
+    "checks": [
+      {
+        "name": "停止后迟到回调不续写，预留保留",
+        "pass": true
+      },
+      {
+        "name": "来源有效时可下载",
+        "pass": true
+      },
+      {
+        "name": "删除后下载立即失效",
+        "pass": true
+      },
+      {
+        "name": "准备中删除阻断导出",
+        "pass": true
+      },
+      {
+        "name": "普通身份拒绝管理员动作",
+        "pass": true
+      }
+    ],
+    "currentConnection": {
+      "name": "示例模型连接",
+      "baseUrl": "https://api.example.com/v1",
+      "model": "demo-support-model",
+      "tested": true
+    }
+  },
+  "connectionRace": {
+    "savedBaseUrl": "https://changed.example.com/v1",
+    "tested": true
+  },
+  "tabs": [
+    {
+      "text": "基础配置",
+      "background": "rgb(240, 240, 240)",
+      "color": "rgb(214, 229, 239)",
+      "width": 72,
+      "height": 25,
+      "fontSize": "14px"
+    },
+    {
+      "text": "版本记录2",
+      "background": "rgb(240, 240, 240)",
+      "color": "rgb(214, 229, 239)",
+      "width": 79.546875,
+      "height": 25,
+      "fontSize": "14px"
+    }
+  ],
+  "home": {
+    "url": "http://127.0.0.1:5173/space.html#/chat",
+    "title": "知应 · 对话工作台",
+    "videoCount": 0,
+    "planetSlots": 0
+  }
+}

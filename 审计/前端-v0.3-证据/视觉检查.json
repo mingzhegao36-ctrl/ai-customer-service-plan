@@ -1,0 +1,148 @@
+{
+  "date": "2026-09-05T04:52:21.516Z",
+  "browser": "152.0.4191.62",
+  "source": "http://127.0.0.1:4173",
+  "errors": [],
+  "samples": [
+    {
+      "route": "overview",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "知应 · 工作空间概览",
+      "height": 1546
+    },
+    {
+      "route": "chat",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "知应 · 对话工作台",
+      "height": 1030
+    },
+    {
+      "route": "history",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "知应 · 会话记录",
+      "height": 1000
+    },
+    {
+      "route": "assistant",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "知应 · 助手配置",
+      "height": 1120
+    },
+    {
+      "route": "connections",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "知应 · 模型连接",
+      "height": 1000
+    },
+    {
+      "route": "usage",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "知应 · 用量与预算",
+      "height": 1000
+    },
+    {
+      "route": "tasks",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "知应 · 任务中心",
+      "height": 1000
+    },
+    {
+      "route": "settings",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "知应 · 工作空间设置",
+      "height": 1000
+    },
+    {
+      "route": "modules",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "知应 · 功能规划",
+      "height": 1517
+    },
+    {
+      "route": "login",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "知应 · 选择预览身份",
+      "height": 1000
+    },
+    {
+      "route": "overview",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "知应 · 工作空间概览",
+      "height": 2419
+    },
+    {
+      "route": "chat",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "知应 · 对话工作台",
+      "height": 866
+    },
+    {
+      "route": "history",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "知应 · 会话记录",
+      "height": 844
+    },
+    {
+      "route": "assistant",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "知应 · 助手配置",
+      "height": 1464
+    },
+    {
+      "route": "connections",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "知应 · 模型连接",
+      "height": 1257
+    },
+    {
+      "route": "usage",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "知应 · 用量与预算",
+      "height": 1487
+    },
+    {
+      "route": "tasks",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "知应 · 任务中心",
+      "height": 844
+    },
+    {
+      "route": "settings",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "知应 · 工作空间设置",
+      "height": 1383
+    },
+    {
+      "route": "modules",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "知应 · 功能规划",
+      "height": 2680
+    },
+    {
+      "route": "login",
+      "width": 390,
+      "scrollWidth": 390,
+      "title": "知应 · 选择预览身份",
+      "height": 844
+    }
+  ]
+}

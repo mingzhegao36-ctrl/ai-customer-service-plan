@@ -1,0 +1,158 @@
+{
+  "browser": "152.0.4191.62",
+  "time": "2026-09-05T04:34:18.859Z",
+  "failures": [],
+  "errors": [],
+  "media": {
+    "videos": [
+      {
+        "planet": "earth",
+        "readyState": 4,
+        "width": 1276,
+        "currentTime": 3.509338,
+        "paused": false
+      },
+      {
+        "planet": "venus",
+        "readyState": 4,
+        "width": 1276,
+        "currentTime": 0,
+        "paused": true
+      },
+      {
+        "planet": "mars",
+        "readyState": 4,
+        "width": 1276,
+        "currentTime": 0,
+        "paused": true
+      }
+    ],
+    "images": [
+      {
+        "planet": "earth",
+        "width": 2048,
+        "loaded": true
+      },
+      {
+        "planet": "venus",
+        "width": 2048,
+        "loaded": true
+      },
+      {
+        "planet": "mars",
+        "width": 2048,
+        "loaded": true
+      },
+      {
+        "planet": "earth",
+        "width": 2048,
+        "loaded": true
+      },
+      {
+        "planet": "venus",
+        "width": 2048,
+        "loaded": true
+      },
+      {
+        "planet": "mars",
+        "width": 2048,
+        "loaded": true
+      }
+    ],
+    "fonts": "loaded",
+    "prata": true,
+    "title": "Prata, Georgia, serif"
+  },
+  "switchTiming": {
+    "samples": [
+      {
+        "planet": "venus",
+        "domSwitchMs": 0.7,
+        "shown": [
+          "earth",
+          "mars"
+        ]
+      },
+      {
+        "planet": "mars",
+        "domSwitchMs": 0.6,
+        "shown": [
+          "earth",
+          "venus"
+        ]
+      },
+      {
+        "planet": "earth",
+        "domSwitchMs": 1,
+        "shown": [
+          "venus",
+          "mars"
+        ]
+      },
+      {
+        "planet": "venus",
+        "domSwitchMs": 0.2,
+        "shown": [
+          "earth",
+          "mars"
+        ]
+      },
+      {
+        "planet": "mars",
+        "domSwitchMs": 0.2,
+        "shown": [
+          "earth",
+          "venus"
+        ]
+      },
+      {
+        "planet": "earth",
+        "domSwitchMs": 0.1,
+        "shown": [
+          "venus",
+          "mars"
+        ]
+      },
+      {
+        "planet": "venus",
+        "domSwitchMs": 0.1,
+        "shown": [
+          "earth",
+          "mars"
+        ]
+      },
+      {
+        "planet": "mars",
+        "domSwitchMs": 0.2,
+        "shown": [
+          "earth",
+          "venus"
+        ]
+      },
+      {
+        "planet": "earth",
+        "domSwitchMs": 0.3,
+        "shown": [
+          "venus",
+          "mars"
+        ]
+      }
+    ],
+    "unchangedSources": true,
+    "scope": "Synchronous DOM mutation duration; excludes download and browser paint"
+  },
+  "tabs": [
+    {
+      "color": "rgb(217, 248, 252)",
+      "background": "rgb(37, 73, 92)",
+      "height": 40,
+      "pressed": "true"
+    },
+    {
+      "color": "rgb(160, 183, 201)",
+      "background": "rgba(0, 0, 0, 0)",
+      "height": 40,
+      "pressed": "false"
+    }
+  ]
+}
